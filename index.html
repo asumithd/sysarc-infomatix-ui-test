@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/main.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-6 col-6">
+                <div class="addressContainer">
+                    <div class="active homeBox" onclick="hideAndShow('India')">
+                        <a class="officeName">India Office</a>
+                    </div>
+                    <div class="homeBox" onclick="hideAndShow('Other')">
+                        <a class="officeName">USA Office</a>
+                    </div>
+                </div>
+                <div id="indiaHomeSection">
+                    <div class="addressInnerBox">
+                        <div class="contactSection">
+                            <div class="contactList">
+                                <div class="contactIconBox">
+                                    <img class="contactIcon" src="./img/homeIcon.png" alt="homeIcon">
+                                </div>
+                                <div class="contactDetails">
+                                    <h3 class="description capitalizeText">
+                                        no.1 defence officer's colony Behind Olympia TechPardk Opp, mew military hospital nandambakkam, chennai tamil nadu 600032.
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="contactList">
+                                <div class="contactIconBox">
+                                    <img class="contactIcon" src="./img/phoneIcon.png" alt="phoneIcon">
+                                </div>
+                                <div class="contactDetails">
+                                    <h3 class="description">
+                                        +91 9818922998
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="contactList">
+                                <div class="contactIconBox">
+                                    <img class="contactIcon" src="./img/penIcon.png" alt="penIcon">
+                                </div>
+                                <div class="contactDetails">
+                                    <h3 class="description">
+                                        sales@sysarcinfomatix.com
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mapBox">
+                        <div class="mapBoxInn">
+                            <img src="./img/map.png" class="mapAreaSection" alt="Location">
+                        </div>
+                    </div>
+                </div>
+                <div id="otherHomeSection" style="display: none;">
+                    <div class="addressInnerBox">
+                        <div class="contactSection">
+                            <div class="contactList">
+                                <div class="contactIconBox">
+                                    <img class="contactIcon" src="./img/homeIcon.png" alt="homeIcon">
+                                </div>
+                                <div class="contactDetails">
+                                    <h3 class="description capitalizeText">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi reprehenderit pariatur, tempora vel ratione a.
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="contactList">
+                                <div class="contactIconBox">
+                                    <img class="contactIcon" src="./img/phoneIcon.png" alt="phoneIcon">
+                                </div>
+                                <div class="contactDetails">
+                                    <h3 class="description">
+                                        +91 9818922998
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="contactList">
+                                <div class="contactIconBox">
+                                    <img class="contactIcon" src="./img/penIcon.png" alt="penIcon">
+                                </div>
+                                <div class="contactDetails">
+                                    <h3 class="description">
+                                        sales@sysarcinfomatix.com
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mapBox">
+                        <div class="mapBoxInn">
+                            <img src="./img/map.png" class="mapAreaSection" alt="Location">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-6 col-6">
+                <div class="contactBox">
+                    <h2 class="contactTitle">
+                        Send us a message
+                    </h2>
+                    <div class="contactBoxInn">
+                        <form>
+                            <div class="formBox">
+                                <input class="formInput" type="text" placeholder="First name *" required>
+                            </div>
+                            <div class="formBox">
+                                <input class="formInput" type="text" placeholder="Last name">
+                            </div>
+                            <div class="formBox">
+                                <input class="formInput" type="email" placeholder="Email *" required>
+                            </div>
+                            <div class="formBox">
+                                <input class="formInput" type="tel" placeholder="Phone *" required>
+                            </div>
+                            <div class="formBox">
+                                <input class="formInput" type="text" placeholder="Company *" required>
+                            </div>
+                            <div class="formBox">
+                                <textarea class="formInput" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                            </div>
+                            <div class="submitBox">
+                                <button type="submit" class="submitBtn">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

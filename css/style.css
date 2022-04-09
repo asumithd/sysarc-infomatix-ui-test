@@ -1,0 +1,118 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.addressContainer {
+    display: flex;
+    justify-content: start;
+    margin: 10px 0;
+}
+
+.active.homeBox {
+    background: #00c793;
+}
+
+.homeBox {
+    background: #f0f8ff;
+    padding: 10px 20px;
+}
+
+.active.homeBox a.officeName {
+    color: #fff;
+}
+
+.homeBox a.officeName {
+    color: #36abe4;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.contactSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactList {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img.contactIcon {
+    padding: 0 20px;
+}
+
+h3.description {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    font-family: ui-monospace;
+}
+
+.addressInnerBox {
+    border: 2px solid #cfc9c9;
+    padding: 10px 0;
+}
+
+.mapBoxInn {
+    width: 90%;
+    height: 250px;
+}
+
+img.mapAreaSection {
+    width: 100%;
+    height: 100%;
+}
+
+.mapBox {
+    padding: 10px 0;
+}
+
+h2.contactTitle {
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    font-family: system-ui;
+}
+
+.formBox {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+input.formInput,
+textarea.formInput {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: #f7f7f7;
+    border: 1px solid #c5c5c5;
+}
+
+.submitBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.submitBtn {
+    background: #00c793;
+    color: #fff;
+    padding: 10px 10px;
+    border-width: 0;
+    text-transform: uppercase;
+}
+
+.capitalizeText {
+    text-transform: capitalize;
+}
+
+.homeBox a.officeName:hover,
+.homeBox a.officeName:visited {
+    text-decoration: none;
+}
